@@ -6,4 +6,4 @@ router.get('/', (req, res) => {
   res.send({ message: 'Hello, backend world!' });
 });
 
-export default router;
+export { router as default };
