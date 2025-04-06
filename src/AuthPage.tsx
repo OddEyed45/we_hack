@@ -1,3 +1,6 @@
+import './App.css'
+
+
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {

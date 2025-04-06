@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,36 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+body {
+  background-image: url("https://assets.codepen.io/11990995/pantri-fy.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.auth-box {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10vh;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+.toggle-link {
+  cursor: pointer;
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.fade-out {
+  display: none;
 }
